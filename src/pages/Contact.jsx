@@ -53,7 +53,7 @@ function Contact() {
           {errors.message && <p className="text-red-600 text-sm">{errors.message}</p>}
         </div>
 
-        <button type="submit" className="bg-royalblue text-white px-4 py-2 rounded">
+        <button type="submit" className="bg-royalblue text-darkbrown px-4 py-2 rounded">
           Send
         </button>
       </form>
