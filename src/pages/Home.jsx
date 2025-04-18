@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <div className="p-6 bg-cornflower min-h-screen text-center text-white">
+    <div className="p-6 bg-cornflower min-h-screen text-center text-darkbrown">
       <motion.h1
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ function Home() {
         <p>HS Diploma & Diploma of Biliteracy in Spanish (2014 – 2020)</p>
       </div>
 
-      <p className="max-w-2xl mx-auto text-lg text-darkbrown bg-white p-4 rounded shadow">
+      <p className="max-w-2xl mx-auto text-lg bg-white p-4 rounded shadow">
         Let’s Connect! If you’re looking for a creative and results-driven professional to support your marketing and design needs, I’d love to collaborate with you on your next project.
       </p>
     </div>
